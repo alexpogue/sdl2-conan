@@ -1,0 +1,10 @@
+[requires]
+SDL2/2.0.3@lasote/stable
+
+[generators]
+ycm
+cmake
+
+[imports]
+bin, *.dll -> ./bin
+lib, *.dylib* -> ./bin
