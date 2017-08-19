@@ -1,9 +1,10 @@
-#Prerequisites
+# Prerequisites
 
  - cmake
  - conan
+ - xorg-dev (Ubuntu needs it to run SDL2 `sudo apt-get install xorg-dev`)
 
-#Building
+# Building
 
 `$ cd sdl2-conan`
 
@@ -21,7 +22,7 @@ Build project (assuming "Unix Makefiles" CMake generator):
 
 `$ make`
 
-#Running
+# Running
 
 The project will build in sdl2-conan/bin.
 
