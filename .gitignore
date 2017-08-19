@@ -2,3 +2,8 @@ build/
 conanbuildinfo.*
 conaninfo.txt
 .ycm_extra_conf.*
+CMakeCache.txt
+CMakeFiles/
+Makefile
+bin/
+cmake_install.cmake
